@@ -1,6 +1,6 @@
 # Hemistichs as Finn Thiesen scans them in A Manual of Classical Persian Prosody
 # (1982), pp. 11–171: every whole Persian hemistich, transcribed from the page.
-# Every row has to fit its metre (aruz_eval.realises).
+# Every row has to fit its metre (aruz_eval.realizes).
 # line: Ganjoor's text when the hemistich is in the 2026-08-03 snapshot (doc_id
 # set), else the book's. provenance: page and paragraph.
 # pronunciation: syllables split by ".", words by spaces; a e o short, â i u long,
