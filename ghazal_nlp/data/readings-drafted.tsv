@@ -1,0 +1,47 @@
+# Held-out Ganjoor hemistichs carrying editorial marks, with a syllabified
+# reading each. Same notation as readings-thiesen.tsv.
+#
+# provenance: "drafted:<model>" means a model wrote the reading and no person
+#   has checked it: not a human annotation. A reviewer puts their handle there.
+#
+# Selection: 48 candidates, 12 per mark family (vowels, sukun, shadda, ezāfe
+#   hamza), seed 24, from held-out single-metre lines in the eight commonest
+#   metres. 14 were not annotated: Arabic quotation (0 8 11 13 15 18 19 23 25),
+#   a line joined across a newline (17), no confident scansion (29 32 46), and
+#   scanning in another metre than its label (38).
+#
+# line_id	doc_id	metre	line	pronunciation	provenance	note
+aruz-001	ecbe28c8a8acbc1bba9537c144f03db5a14e1ae8	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	سرگشته رایِ گم شده عقلِ هوا پرست	sar.gaš.te râ.ye gom šo.de 'aq.lē ha.vâ.pa.rast	drafted:claude-opus-5.5	written ezāfe on عقل lengthened
+aruz-002	f468bdd70c725c4cc8f659c1f271a86b32c10dda	فاعلاتن فاعلاتن فاعلن (رمل مسدس محذوف یا وزن مثنوی)	هم دوای دردِ این خارت منم	ham da.vâ.yē dar.de in xâ.rat ma.nam	drafted:claude-opus-5.5	ezāfe after دوا, lengthened
+aruz-003	aaf180b58cbfc13350317d7c0fb7bf2b69b0b3e9	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	مباش ایمن ز کَیدِ چرخِ ریمن	ma.bâ.ši.man ze key.dē čar.xe ri.man	drafted:claude-opus-5.5	elision مباش ایمن; written ezāfe on کید lengthened
+aruz-004	f00724cf0c5e39dc17b0ae4a39c9159a544678e9	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	آخر به تُرک مست که تیر و کمان دهد‌؟	â.xar be tor.ke mast ke ti.rō ka.mân da.had	drafted:claude-opus-5.5	conjunction و lengthened
+aruz-005	5309ee74d29dfd9dbdbecfc94a2b288814608050	فعلاتن فعلاتن فعلاتن فعلن (رمل مثمن مخبون محذوف)	رفتم از کوی تو لیکن عقبِ سر نگران	raf.ta.maz ku.ye to li.kan 'a.qa.bē sar ne.ga.rân	drafted:claude-opus-5.5	written ezāfe on عقب lengthened
+aruz-006	add2f14635566f1d76390f25744077cb8b72f59a	فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	دل از کفر و دست از خیانت نشسُت	de.laz kof.ro das.taz xe.yâ.nat na.šost	drafted:claude-opus-5.5	the damma of نشسُت sits on س, not ش: an editorial slip, and this reading is the one it excludes
+aruz-007	a5dc059fbb88732828c930fb535a0f80e93664f7	فعلاتن فعلاتن فعلاتن فعلن (رمل مثمن مخبون محذوف)	گر شود بحرِ کفِ همت تو موج زنان	gar ša.vad bah.re ka.fē hem.ma.te tu mowj za.nân	drafted:claude-opus-5.5	written ezāfe on کف lengthened; unwritten gemination in همت
+aruz-009	74b60fe6058ea61db2522254909cb8d8fde24419	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	بیفکن تخم زین آبی بَر آید	be.yaf.kan toxm zin â.bi ba.râ.yad	drafted:claude-opus-5.5	fatha on بَر marks the elision بر آید
+aruz-010	2bc59ff969de609d39f266511425de6c99227e62	فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	از این نیک‌تر بُد که انسان شدم	a.zin nik.tar bod ke en.sân šo.dam	drafted:claude-opus-5.5	damma on بُد
+aruz-012	0d2c6ed3055f945f214b9d7f88753ab5fb88cc68	فعلاتن فعلاتن فعلاتن فعلن (رمل مثمن مخبون محذوف)	بِهْ که با من به پذیرایی میر آیی رام	beh ke bâ man be pa.zi.râ.yĭ.ye mi.râ.yi râm	drafted:claude-opus-5.5	sukun on بِهْ: h is a consonant; elision میر آیی assumed
+aruz-014	10e5ad92fb22218b0cb3bd1e44283d5ae9be6a52	فاعلاتن فاعلاتن فاعلاتن فاعلن (رمل مثمن محذوف)	در حقایق عشقْ خود را ترجمان‌ست، ای پسر	dar ha.qâ.yeq 'ešq xod râ tar.jo.mâ.nast ey pe.sar	drafted:claude-opus-5.5	sukun on عشقْ rules out an ezāfe the syntax invites
+aruz-016	0d2c6ed3055f945f214b9d7f88753ab5fb88cc68	فعلاتن فعلاتن فعلاتن فعلن (رمل مثمن مخبون محذوف)	پس از این بِهْ که نپایند پلنگان به جبال	pa.sa.zin beh ke na.pâ.yand pa.lan.gân be ja.bâl	drafted:claude-opus-5.5	sukun on بِهْ
+aruz-020	ddf2d329ee517a410a8674488dd3be26229e0d8e	مفاعلن فعلاتن مفاعلن فعلن (مجتث مثمن مخبون محذوف)	فَرازِ مَسْنَدِ خورشید، تِکْیِه‌گاهِ من است	fa.râ.ze mas.na.de xor.šid tek.ye.gâ.he ma.nast	drafted:claude-opus-5.5	three written ezāfes; ZWNJ in تکیه‌گاه
+aruz-021	5098850c9193f00a5c78ad523c96fb77c482b5b4	فاعلاتن فاعلاتن فاعلاتن فاعلن (رمل مثمن محذوف)	گریه مستانه بی‌مِیْ می‌کند ما را خراب	ger.ye.yē mas.tâ.ne bi.mey mi.ko.nad mâ râ xa.râb	drafted:claude-opus-5.5	unwritten ezāfe after گریه, lengthened; sukun on مِیْ
+aruz-022	7e7dfc6adaf40d8a037d54b183713d28d78fd1e7	مفاعلن فعلاتن مفاعلن فعلن (مجتث مثمن مخبون محذوف)	کُجاست اَهْلِ بِصارَت که نیک، ارزان گُفْت؟	ko.jâst ah.le ba.sâ.rat ke nik ar.zân goft	drafted:claude-opus-5.5	sukun on اَهْل; no elision of کجاست اهل
+aruz-024	7b86fcd494e685364c15089fb33262c0e4af33b4	فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	زر و سیم و هم دُرِّ شهوار هست	za.rō si.mo ham dor.re šah.vâr hast	drafted:claude-opus-5.5	written shadda + kasra on دُرِّ: gemination before the ezāfe
+aruz-026	ab3ac46282ea896363eb6653a4ff1d5272d68e6a	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	به همّت، خاصه همّت، همّتِ شاه	be hem.mat xâ.se hem.mat hem.ma.tē šâh	drafted:claude-opus-5.5	written ezāfe on همت lengthened
+aruz-027	16d368adfabeab4516b94863486ce314c82a567f	مفاعلن فعلاتن مفاعلن فعلن (مجتث مثمن مخبون محذوف)	پی تفقّد دل همچو غنچه شد خندان	pa.yē ta.faq.qo.de del ham.čo ġon.če šod xan.dân	drafted:claude-opus-5.5	written shadda in تفقّد; unwritten ezāfe on پی lengthened
+aruz-028	7959da82a487a9c762b506c55afe4d331df54e34	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	چرا در عین ذرّاتی گرفتار	če.râ dar 'ey.ne zar.râ.ti ge.ref.târ	drafted:claude-opus-5.5	written shadda in ذرّات
+aruz-030	a74bf74569849aefaa5b7482986494daf7deb73b	فعلاتن فعلاتن فعلاتن فعلن (رمل مثمن مخبون محذوف)	ننهد طرّه ات از سر صفت طرّاری	na.na.had tor.re.a.taz sar se.fa.tē tor.râ.ri	drafted:claude-opus-5.5	written shadda in طرّه and طرّاری; unwritten ezāfe on صفت lengthened
+aruz-031	92bc039b7e1561d4c1c5588a73c08f319f01306e	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	منم در حلقۀ رندانِ قلّاش	ma.nam dar hal.qe.yē ren.dâ.ne qal.lâš	drafted:claude-opus-5.5	ۀ glide lengthened; written ezāfe on رندان
+aruz-033	75ec5b82f2c4e8f5cd06541c9d739a366a93bba7	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	چه می‌گویم ترا حقّا که هم نیست	če mi.gu.yam to.râ haq.qâ ke ham nist	drafted:claude-opus-5.5	written shadda before ا, which unwritten gemination cannot reach
+aruz-034	575afd9c7abe95a54c2191fa1d7f4953506630b0	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	خدا سرمایهٔ امّید و بیم است	xo.dâ sar.mâ.ye.yē om.mi.do bi.mast	drafted:claude-opus-5.5	هٔ glide lengthened; written poetic gemination in امّید
+aruz-035	9b19d1fe0c4579e9b98bb9f0eac84522e36911f7	فعلاتن مفاعلن فعلن (خفیف مسدس مخبون)	‌تا شبی خلوتی میسّر شد	tâ ša.bi xal.va.ti mo.yas.sar šod	drafted:claude-opus-5.5	written shadda in میسّر
+aruz-036	7eb597d3f047e0e14c77be3f1042bf7e66dc302f	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	خاک لحد ز گریهٔ من غم برآورد	xâ.kē la.had ze ger.ye.ye man ġam ba.râ.va.rad	drafted:claude-opus-5.5	هٔ glide short; unwritten ezāfe on خاک lengthened
+aruz-037	53c8f7660c01a91d4c6dafb0e7055070da8c04c6	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	رنگ قبول حوصلهٔ عجز ناز کیست	ran.gē qa.bul how.se.le.yē 'aj.ze nâz kist	drafted:claude-opus-5.5	هٔ glide lengthened
+aruz-039	6e88931115a7d6e2ee78793a182ffb8e053eaaca	فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	که آن پردهٔ کژ بدو گشت راست	ke ân par.de.yē kaž be.du gašt râst	drafted:claude-opus-5.5	هٔ glide lengthened
+aruz-040	d1c43cc0beb8453c2bb28abd80f7b3f0547f71fa	فعلاتن مفاعلن فعلن (خفیف مسدس مخبون)	هم کند حشر جملۀ خلقان	ham ko.nad haš.re jom.le.yē xal.qân	drafted:claude-opus-5.5	ۀ glide lengthened
+aruz-041	1e775522b56d7785ee7a9490881636d4c3c97c13	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	گردیده ام زکینهٔ اشرار، بی معین	gar.di.de.am ze ki.ne.ye aš.râr bi mo.'in	drafted:claude-opus-5.5	هٔ glide short
+aruz-042	b75442a41ff10cd79a07def8dc524d2aa29220f7	فاعلاتن فاعلاتن فاعلن (رمل مسدس محذوف یا وزن مثنوی)	جامهٔ رندانه ای بردوختم	jâ.me.yē ren.dâ.ne.i bar.dux.tam	drafted:claude-opus-5.5	هٔ glide lengthened
+aruz-043	bf82940ab4e3c66607564832e28fa9c104c65003	فعلاتن مفاعلن فعلن (خفیف مسدس مخبون)	گوهرش در میان چشمهٔ نوش	gow.ha.raš dar me.yâ.ne čaš.me.ye nuš	drafted:claude-opus-5.5	هٔ glide short
+aruz-044	7449a27eb5d9785101655c51b1b51baba1ec8737	فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	نباشد جزاندیشهٔ دوستان	na.bâ.šad ja.zan.di.še.yē dus.tân	drafted:claude-opus-5.5	هٔ glide lengthened
+aruz-045	1095544cdc57d372607ce65cc32b35557861bbb7	مفاعیلن مفاعیلن فعولن (هزج مسدس محذوف یا وزن دوبیتی)	چو ترک دانهٔ دنیی گرفتی	čo tar.kē dâ.ne.yē don.yi ge.ref.ti	drafted:claude-opus-5.5	هٔ glide lengthened; unwritten ezāfe on ترک lengthened
+aruz-047	c09a977ca299e7ffc812108fe0206b360d12f086	مفاعلن فعلاتن مفاعلن فعلن (مجتث مثمن مخبون محذوف)	هزار بیشهٔ نی را بس است یک شعله	ha.zâr bi.še.ye ney râ ba.sast yak šo'.le	drafted:claude-opus-5.5	هٔ glide short
