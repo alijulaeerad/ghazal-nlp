@@ -1,15 +1,6 @@
-# Held-out Ganjoor hemistichs carrying editorial marks, with a syllabified
-# reading each. Same notation as readings-thiesen.tsv.
-#
-# provenance: "drafted:<model>" means a model wrote the reading and no person
-#   has checked it: not a human annotation. A reviewer puts their handle there.
-#
-# Selection: 48 candidates, 12 per mark family (vowels, sukun, shadda, ezāfe
-#   hamza), seed 24, from held-out single-metre lines in the eight commonest
-#   metres. 14 were not annotated: Arabic quotation (0 8 11 13 15 18 19 23 25),
-#   a line joined across a newline (17), no confident scansion (29 32 46), and
-#   scanning in another metre than its label (38).
-#
+# Held-out Ganjoor hemistichs with editors' marks, and a syllabified reading of
+# each, same notation as readings-thiesen.tsv. provenance "drafted:<model>": a
+# model wrote the reading and nobody has checked it yet.
 # line_id	doc_id	metre	line	pronunciation	provenance	note
 aruz-001	ecbe28c8a8acbc1bba9537c144f03db5a14e1ae8	مفعول فاعلات مفاعیل فاعلن (مضارع مثمن اخرب مکفوف محذوف)	سرگشته رایِ گم شده عقلِ هوا پرست	sar.gaš.te râ.ye gom šo.de 'aq.lē ha.vâ.pa.rast	drafted:claude-opus-5.5	written ezāfe on عقل lengthened
 aruz-002	f468bdd70c725c4cc8f659c1f271a86b32c10dda	فاعلاتن فاعلاتن فاعلن (رمل مسدس محذوف یا وزن مثنوی)	هم دوای دردِ این خارت منم	ham da.vâ.yē dar.de in xâ.rat ma.nam	drafted:claude-opus-5.5	ezāfe after دوا, lengthened

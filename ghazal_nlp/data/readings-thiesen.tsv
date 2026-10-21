@@ -1,26 +1,12 @@
-# Hemistichs scanned in a printed reference, one syllabified reading each.
-#
-# Source: Finn Thiesen, A Manual of Classical Persian Prosody (Wiesbaden:
-#   Harrassowitz, 1982), pp. 11–171 (§§23–257): every whole Persian hemistich.
-#   Thiesen splits each transliterated hemistich at the foot boundaries, so a
-#   row is his scansion, not an inference. provenance cites page and paragraph.
-#
-# Transcribed from the page images by claude-opus-5.5 on 23 September 2026.
-#   Every row's weights must realise its metre (aruz_eval.realises), which
-#   catches a misreading unless it happens to scan.
-#
-# Notation (aruz_eval.weights_of): syllables split by ".", words by spaces;
-#   a e o short, â i u long, ē ō ā lengthened by the metre, ĭ ŭ shortened, one
-#   character per consonant (š č x ġ ž, ' for glottal and ʿayn). A long vowel
-#   plus a consonant weighs S, the overlong syllable or one counted long; the
-#   note says which Thiesen read. The -e + ezāfe contraction (§71) is ey.
-#
-# line: Ganjoor's text when the hemistich is in the 2026-08-03 snapshot under a
-#   label with the same pattern (doc_id is then set), else the book's.
-#
-# Not transcribed: quoted Arabic (§§125–126, 219, 231), the fragments of §§52–53,
-#   and §236's second hemistich, a robāʿī shape outside the robāʿī.
-#
+# Hemistichs as Finn Thiesen scans them in A Manual of Classical Persian Prosody
+# (1982), pp. 11–171: every whole Persian hemistich, transcribed from the page.
+# Every row has to fit its metre (aruz_eval.realises).
+# line: Ganjoor's text when the hemistich is in the 2026-08-03 snapshot (doc_id
+# set), else the book's. provenance: page and paragraph.
+# pronunciation: syllables split by ".", words by spaces; a e o short, â i u long,
+# ē ō ā lengthened by the metre, ĭ ŭ shortened, one character per consonant
+# (š č x ġ ž, ' for glottal and ʿayn), S an overlong syllable; ey is -e + ezāfe.
+# Not included: quoted Arabic, the fragments of §§52–53, and §236's second line.
 # line_id	doc_id	metre	line	pronunciation	provenance	note
 th-001		فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	مگو تا توانی دروغی بما	ma.gu tâ ta.vâ.ni do.ru.qi be mâ	thiesen-1982:p.11:§23	
 th-002		فعولن فعولن فعولن فعل (متقارب مثمن محذوف یا وزن شاهنامه)	کجا می شنیدی دروغی ز ما	ko.jâ mi še.ni.di do.ru.qi ze mâ	thiesen-1982:p.11:§23	
