@@ -18,10 +18,7 @@ but it finds only 63% of them.
 
 ## Asking the metre
 
-In verse, if every reading of a line in its metre agrees on a junction, that's
-a free label. On 40 Ganjoor sites the metre decided 12 (16 with the weight
-lexicon), and 9 of 12 (13 of 16) matched my labels. Every miss was a missed
-ezāfe: an ezāfe and a hiatus glide often sound the same.
+This became `junction`'s verse profile on main; its numbers are in the README.
 
 ## Next
 
