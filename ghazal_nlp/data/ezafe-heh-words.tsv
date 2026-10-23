@@ -1,3 +1,4 @@
+# Counts over a 2026 Persian corpus: spoken is 4 GB of tweets, YouTube, Aparat and shop comments, Telegram and Instagram posts and forum threads; edited is 1.5 GB of Persian Wikipedia, news sites, Wikibooks and FineWeb2.
 # word ending in ه	spoken	edited	word without ه, spoken	edited	it with a kasra	the word with a suffix after ZWNJ	next-word classes after the word, spoken (end or punctuation, verb, را, content, function word)	the same after the word without ه, edited
 10ساله	67	3	3	0	0	0	9	9	0	38	10	0	0	0	0	0
 1446ه	6	0	32	19	0	0	1	0	0	1	0	16	0	0	2	1
